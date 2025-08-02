@@ -1,0 +1,86 @@
+[
+  {
+    "id": "rethingit",
+    "title": "RethingIt",
+    "tags": ["React", "Firebase", "UX", "Product"],
+    "category": "web-development",
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
+    "url": "https://behance.net/rethingit",
+    "description": "A local sharing app that helps communities exchange unused items without waste.",
+    "features": [
+      "Built with Firebase Auth, Firestore, Realtime DB",
+      "Real-time messaging and image upload",
+      "Three user states (borrower, lender, admin)"
+    ]
+  },
+  {
+    "id": "ecommerce-platform",
+    "title": "E-commerce Platform",
+    "tags": ["Next.js", "Stripe", "Product"],
+    "category": "web-development",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
+    "url": "https://behance.net/ecommerce-platform",
+    "description": "Full-stack e-commerce solution with payment processing and inventory management.",
+    "features": [
+      "Integrated Stripe payment gateway",
+      "Real-time inventory tracking",
+      "Admin dashboard with analytics"
+    ]
+  },
+  {
+    "id": "task-manager",
+    "title": "Task Manager",
+    "tags": ["React", "LocalStorage", "PWA"],
+    "category": "mini-apps",
+    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
+    "url": "https://taskmanager-demo.netlify.app",
+    "description": "Minimalist task management app with drag-and-drop functionality and offline support.",
+    "features": [
+      "Drag and drop task organization",
+      "Offline-first functionality",
+      "Progressive Web App features"
+    ]
+  },
+  {
+    "id": "product-strategy",
+    "title": "Product Strategy",
+    "tags": ["Strategy", "Research", "Analytics"],
+    "category": "product-management",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
+    "url": "https://behance.net/product-strategy",
+    "description": "Comprehensive product strategy for SaaS platform resulting in 40% user growth.",
+    "features": [
+      "User research and persona development",
+      "Feature prioritization framework",
+      "KPI tracking and optimization"
+    ]
+  },
+  {
+    "id": "weather-widget",
+    "title": "Weather Widget",
+    "tags": ["JavaScript", "API", "CSS3"],
+    "category": "mini-apps",
+    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
+    "url": "https://weather-widget-demo.netlify.app",
+    "description": "Interactive weather widget with location detection and 7-day forecast.",
+    "features": [
+      "OpenWeather API integration",
+      "Geolocation and city search",
+      "Responsive design with animations"
+    ]
+  },
+  {
+    "id": "ux-research",
+    "title": "UX Research Study",
+    "tags": ["UX Research", "Figma", "Testing"],
+    "category": "product-management",
+    "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
+    "url": "https://behance.net/ux-research",
+    "description": "Comprehensive UX research study improving user onboarding by 60%.",
+    "features": [
+      "User interviews and usability testing",
+      "Journey mapping and pain point analysis",
+      "Prototype testing and iteration"
+    ]
+  }
+]

@@ -1,0 +1,168 @@
+English-only site
+
+Dual-language video in hero
+
+Resume-first layout on Info page
+
+Descriptive CaseCards
+
+Smart, minimal UX like harryjatkins.com
+
+Accent color: Electric Blue
+
+Stylish, modern fonts
+
+Clean Tailwind + React architecture
+
+🧾 Kostiantyn Kovalchuk – Personal Portfolio Project Document
+🧭 SITE STRUCTURE
+✅ Pages
+URL	Title	Description
+/	Home	Hero with video, case grid w/ filters
+/info	Info Page	Resume (top), bio, skills, contact
+
+🎬 HOMEPAGE STRUCTURE
+🟦 Hero Section
+2-column layout (stacked on mobile)
+
+Left:
+
+h1: Kostiantyn Kovalchuk
+
+h2: Product Owner & Frontend Developer
+
+Short positioning sentence
+
+Right:
+
+Dual-language video toggle (EN/ES)
+
+Responsive and mobile-optimized
+
+🗂️ Case Grid Section
+Filter Bar (toggle):
+
+All | Mini Apps | Web Development | Product Management
+
+Case Cards:
+
+Title
+
+Tags (tech/roles)
+
+Thumbnail
+
+Description text + feature checklist
+
+CTA opens in new tab
+
+Mini Apps → live project
+
+Web Dev / Product → Behance or detailed URL
+
+📄 INFO PAGE STRUCTURE
+✅ 1. Resume (Top Section)
+Layout:
+
+Left: Thumbnail (PDF preview, small)
+
+Right: Button → Download Resume (PDF)
+
+Clicking thumbnail opens full PDF in new tab
+
+🟦 2. About You (Short Bio)
+A brief narrative (3–5 lines)
+
+🛠️ 3. Skills & Tools
+Languages: HTML, CSS, JS, React, Firebase
+
+Tools: Figma, Behance, Trello, GitHub
+
+Skills: Product Management, UX, App Prototyping
+
+📞 4. Contact
+📧 Email: mailto:you@email.com
+
+📞 Phone: tel:+34xxxxxxxxx
+
+🔗 LinkedIn: external link
+
+🖼️ CASECARD STRUCTURE
+Each case card includes:
+
+json
+Copy
+Edit
+{
+  "id": "rethingit",
+  "title": "RethingIt",
+  "tags": ["React", "Firebase", "UX", "Product"],
+  "category": "Web Development",
+  "image": "/images/rethingit.png",
+  "url": "https://behance.net/rethingit",
+  "description": "A local sharing app that helps communities exchange unused items without waste.\n\n✅ Built with Firebase Auth, Firestore, Realtime DB\n✅ Real-time messaging and image upload\n✅ Three user states (borrower, lender, admin)"
+}
+UI Rendering:
+
+Top: Thumbnail → clickable (opens url in new tab)
+
+Title + Tags
+
+Short paragraph
+
+Bullet checklist
+
+🎨 STYLE SYSTEM
+Color Palette
+Use	Color
+Background	#ffffff
+Text (Dark)	#1f1f1f
+Accent	#00AEEF
+Divider/Muted	#CCCCCC
+
+Typography
+Primary Font: Inter (clean, professional)
+
+Optional Headings: Space Grotesk or DM Sans
+
+Import:
+
+html
+Copy
+Edit
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+⚙️ TECH STACK & SETUP
+Feature	Tool/Lib
+Framework	React + Vite
+Styling	Tailwind CSS
+Routing	React Router
+Hosting	Netlify or Vercel
+Assets	Public folder
+Video Toggle	useState (EN/ES)
+Data	JSON files (cases.json)
+Responsive Layout	Tailwind breakpoints
+
+📁 FOLDER STRUCTURE
+bash
+Copy
+Edit
+/public
+  /images
+    rethingit.png
+    resume-preview.png
+  resume.pdf
+
+/src
+  /components
+    HeroSection.jsx
+    CaseCard.jsx
+    FilterBar.jsx
+    ResumeBlock.jsx
+    VideoToggle.jsx
+  /pages
+    Home.jsx
+    Info.jsx
+  /data
+    cases.json
+  App.jsx
+  main.jsx
