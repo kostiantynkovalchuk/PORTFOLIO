@@ -27,7 +27,7 @@ export default function Info() {
         </div>
       </section>
 
-      {/* Skills & Bolt Section */}
+      {/* Skills & Tools Section */}
       <section className="py-16 px-6 bg-gray-50">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-semibold text-center mb-12">
@@ -53,12 +53,12 @@ export default function Info() {
               </div>
             </div>
 
-            {/* Bolt */}
+            {/* Tools */}
             <div className="text-center">
               <div className="w-16 h-16 bg-electric-blue/10 rounded-2xl flex items-center justify-center mx-auto mb-4">
                 <Bolt className="text-electric-blue w-8 h-8" />
               </div>
-              <h3 className="text-xl font-semibold mb-4">Bolt</h3>
+              <h3 className="text-xl font-semibold mb-4">Tools</h3>
               <div className="space-y-2">
                 {tools.map((tool) => (
                   <span
