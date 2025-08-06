@@ -12,14 +12,15 @@ export default function HeroSection() {
                 Kostiantyn Kovalchuk
               </h1>
               <h2 className="text-xl lg:text-2xl text-gray-600 font-medium mb-6">
-                Product Owner & Frontend Developer
+                Creative Web Developer & Product Owner
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Building digital products that solve real problems with clean code and thoughtful design.
+                Building digital products that solve real problems with clean
+                code and thoughtful design.
               </p>
             </div>
           </div>
-          
+
           {/* Right Column - Video Toggle */}
           <div className="lg:order-2">
             <VideoToggle />
