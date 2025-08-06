@@ -10,7 +10,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center">
           <Link href="/" className="hover:opacity-80 transition-opacity">
             <img
-              src="/images/logo3.png"
+              src="/images/logo3_spaced.png"
               alt="Kostiantyn Kovalchuk"
               className="h-12 w-auto"
             />
