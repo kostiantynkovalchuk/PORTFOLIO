@@ -28,13 +28,13 @@
     ]
   },
   {
-    "id": "task-manager",
-    "title": "Task Manager",
-    "tags": ["React", "LocalStorage", "PWA"],
+    "id": "see-weather",
+    "title": "See The Weather",
+    "tags": ["JavaScript", "HTML/CSS", "API"],
     "category": "mini-apps",
-    "image": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-    "url": "https://taskmanager-demo.netlify.app",
-    "description": "Minimalist task management app with drag-and-drop functionality and offline support.",
+    "image": "images/seeweather_cover.png",
+    "url": "https://kosweather.netlify.app/",
+    "description": "This beautiful app integrates multiple APIs to fetch real-time weather data and showcase stock photos matched by location and weather variables.",
     "features": [
       "Drag and drop task organization",
       "Offline-first functionality",
