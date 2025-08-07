@@ -2,11 +2,11 @@
   {
     "id": "rethingit",
     "title": "RethingIt",
-    "tags": ["React", "Firebase", "UX", "Real-time chat"],
+    "tags": ["React", "Firebase", "UI/UX", "Real-time chat"],
     "category": "web-development",
     "image": "images/rethingit_cover2.png",
     "url": "https://www.behance.net/gallery/230245555/RethingIt",
-    "description": "A local sharing app that helps communities exchange unused items reducing waste.",
+    "description": "A community-driven web app that makes it easy to lend and borrow everyday items locally, reducing waste and promoting sustainable sharing.",
     "features": [
       "Built with Firebase Auth, Firestore, Realtime DB",
       "Real-time messaging and image upload",
@@ -14,13 +14,13 @@
     ]
   },
   {
-    "id": "ecommerce-platform",
-    "title": "E-commerce Platform",
-    "tags": ["Next.js", "Stripe", "Product"],
+    "id": "rename-global-warming",
+    "title": "Rename Global Warming",
+    "tags": ["JavaScript", "UI/UX", "Firebase", "Cloudinary"],
     "category": "web-development",
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-    "url": "https://behance.net/ecommerce-platform",
-    "description": "Full-stack e-commerce solution with payment processing and inventory management.",
+    "image": "images/rgw_cover.png",
+    "url": "https://www.behance.net/gallery/225635895/Rename-Global-Warming",
+    "description": "A public awareness project inviting users to suggest new names for climate change and share visual evidence of its impact.",
     "features": [
       "Integrated Stripe payment gateway",
       "Real-time inventory tracking",
