@@ -39,14 +39,14 @@ export default function CaseCard({ case: caseItem }: CaseCardProps) {
           {caseItem.tags.map((tag) => (
             <span
               key={tag}
-              className="px-2 py-1 bg-blue-100 text-blue-600 text-xs font-medium rounded-full"
+              className="px-2 py-1 bg-electric-blue/10 text-electric-blue text-xs font-medium rounded-full"
             >
               {tag}
             </span>
           ))}
         </div>
 
-        <h3 className="text-xl font-semibold mb-3 group-hover:text-blue-600 transition-colors">
+        <h3 className="text-xl font-semibold mb-3 group-hover:text-electric-blue transition-colors">
           {caseItem.title}
         </h3>
 
