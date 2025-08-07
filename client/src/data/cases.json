@@ -2,7 +2,7 @@
   {
     "id": "rethingit",
     "title": "RethingIt",
-    "tags": ["React", "Firebase", "UI/UX", "Real-time chat"],
+    "tags": ["React", "Firebase", "UI/UX", "Realtime Chat"],
     "category": "web-development",
     "image": "images/rethingit_cover2.png",
     "url": "https://www.behance.net/gallery/230245555/RethingIt",
@@ -56,13 +56,13 @@
     ]
   },
   {
-    "id": "weather-widget",
-    "title": "Weather Widget",
-    "tags": ["JavaScript", "API", "CSS3"],
+    "id": "wordle-game",
+    "title": "Dev´s Wordle",
+    "tags": ["Mobile", "React", "UI/UX", "Game Development"],
     "category": "mini-apps",
-    "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-    "url": "https://weather-widget-demo.netlify.app",
-    "description": "Interactive weather widget with location detection and 7-day forecast.",
+    "image": "images/wordle_cover.png",
+    "url": "https://kosassembly.netlify.app/",
+    "description": "A mobile Wordle-style game with a twist of programmer humor. Each wrong letter eliminates a programming language.",
     "features": [
       "OpenWeather API integration",
       "Geolocation and city search",
