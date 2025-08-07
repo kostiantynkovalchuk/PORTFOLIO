@@ -57,7 +57,7 @@
 
   body {
     @apply font-sans antialiased bg-background text-foreground;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
   }
 
   html {
@@ -84,5 +84,9 @@
 
   .hover\:text-electric-blue:hover {
     color: var(--electric-blue);
+  }
+
+  .bg-electric-blue\/10 {
+    background-color: hsla(199, 100%, 47%, 0.1);
   }
 }
