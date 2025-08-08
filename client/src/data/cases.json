@@ -28,6 +28,20 @@
     ]
   },
   {
+    "id": "citadel",
+    "title": "Citadel",
+    "tags": ["JavaScript", "UI/UX", "HTML", "CSS"],
+    "category": "web-development",
+    "image": "images/citadel_cover.jpeg",
+    "url": "https://ctadel.netlify.app/",
+    "description": "A bilingual landing page for a Ukrainian MilTech startup featuring a bold USP, 3D product demo, and lead capture form.",
+    "features": [
+      "Integrated Stripe payment gateway",
+      "Real-time inventory tracking",
+      "Admin dashboard with analytics"
+    ]
+  },
+  {
     "id": "see-weather",
     "title": "See The Weather",
     "tags": ["JavaScript", "HTML/CSS", "API", "Mobile"],
@@ -90,7 +104,7 @@
     "category": "games",
     "image": "images/blackjack_cover.jpeg",
     "url": "https://blackkos.netlify.app/",
-    "description": "A classic card game of Blackjack. Try your hand, but remember: The casino always wins. Just kidding, you can win too!",
+    "description": "A classic card game of Blackjack. Try your hand, but remember: the casino always wins. Just kidding, you can win too!",
     "features": [
       "User research and persona development",
       "Feature prioritization framework",
