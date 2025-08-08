@@ -76,7 +76,7 @@
     "category": "mini-apps",
     "image": "images/memegenerator_cover.jpeg",
     "url": "https://kosmemes.netlify.app/",
-    "description": "Built mobile-first, this simple yet fun app pulls random images from a meme API, stores them in an array, and lets you generate new memes at the click of a button. The image updates dynamically via React state.",
+    "description": "Built mobile-first, this simple yet fun app pulls random images from a meme API, stores them in an array, and lets you generate new memes at the click of a button.",
     "features": [
       "Drag and drop task organization",
       "Offline-first functionality",
