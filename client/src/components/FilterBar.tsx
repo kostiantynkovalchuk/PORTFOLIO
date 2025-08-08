@@ -5,12 +5,16 @@ interface FilterBarProps {
   onCategoryChange: (category: string) => void;
 }
 
-export default function FilterBar({ selectedCategory, onCategoryChange }: FilterBarProps) {
+export default function FilterBar({
+  selectedCategory,
+  onCategoryChange,
+}: FilterBarProps) {
   const categories = [
     { id: "all", label: "All" },
     { id: "mini-apps", label: "Mini Apps" },
     { id: "web-development", label: "Web Development" },
     { id: "product-management", label: "Product Management" },
+    { id: "games", label: "Games" },
   ];
 
   return (

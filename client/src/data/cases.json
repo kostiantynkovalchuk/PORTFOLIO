@@ -30,7 +30,7 @@
   {
     "id": "see-weather",
     "title": "See The Weather",
-    "tags": ["JavaScript", "HTML/CSS", "API"],
+    "tags": ["JavaScript", "HTML/CSS", "API", "Mobile"],
     "category": "mini-apps",
     "image": "images/seeweather_cover.jpeg",
     "url": "https://kosweather.netlify.app/",
@@ -42,13 +42,41 @@
     ]
   },
   {
-    "id": "product-strategy",
-    "title": "Product Strategy",
-    "tags": ["Strategy", "Research", "Analytics"],
-    "category": "product-management",
-    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-    "url": "https://behance.net/product-strategy",
-    "description": "Comprehensive product strategy for SaaS platform resulting in 40% user growth.",
+    "id": "unit-converter",
+    "title": "Unit Converter",
+    "tags": ["JavaScript", "HTML", "CSS", "Mobile"],
+    "category": "mini-apps",
+    "image": "images/unitconverter_cover.jpeg",
+    "url": "https://kos-converter.netlify.app/",
+    "description": "Seamlessly convert between meters and feet, liters and gallons, or kilograms and pounds — all with speed, accuracy, and ease. Ideal for professionals and everyday use.",
+    "features": [
+      "Drag and drop task organization",
+      "Offline-first functionality",
+      "Progressive Web App features"
+    ]
+  },
+  {
+    "id": "password-generator",
+    "title": "Password Generator",
+    "tags": ["JavaScript", "HTML", "CSS", "Mobile"],
+    "category": "mini-apps",
+    "image": "images/passwordgenerator_cover.jpeg",
+    "url": "https://kos-pass.netlify.app/",
+    "description": "An app that generates strong, random passwords keeping hackers out of business. Whether you need a quick solution or want to make your old password strong again.",
+    "features": [
+      "Drag and drop task organization",
+      "Offline-first functionality",
+      "Progressive Web App features"
+    ]
+  },
+  {
+    "id": "blackjack-game",
+    "title": "Blackjack",
+    "tags": ["Mobile", "React", "UI/UX", "Game Development"],
+    "category": "games",
+    "image": "images/blackjack_cover.jpeg",
+    "url": "https://blackkos.netlify.app/",
+    "description": "A classic card game of Blackjack. Try your hand, but remember: The casino always wins. Just kidding, you can win too!",
     "features": [
       "User research and persona development",
       "Feature prioritization framework",
@@ -59,7 +87,7 @@
     "id": "wordle-game",
     "title": "Dev´s Wordle",
     "tags": ["Mobile", "React", "UI/UX", "Game Development"],
-    "category": "mini-apps",
+    "category": "games",
     "image": "images/wordle_cover.jpeg",
     "url": "https://kosassembly.netlify.app/",
     "description": "A mobile Wordle-style game with a twist of programmer humor. Each wrong letter eliminates a programming language.",
@@ -70,13 +98,13 @@
     ]
   },
   {
-    "id": "ux-research",
-    "title": "UX Research Study",
-    "tags": ["UX Research", "Figma", "Testing"],
-    "category": "product-management",
-    "image": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600",
-    "url": "https://behance.net/ux-research",
-    "description": "Comprehensive UX research study improving user onboarding by 60%.",
+    "id": "dice-game",
+    "title": "Dice",
+    "tags": ["Mobile", "React", "UI/UX", "Game Development"],
+    "category": "games",
+    "image": "images/dice_cover.jpeg",
+    "url": "https://kostenzies.netlify.app/",
+    "description": "A fun little game that you can play with your kids or on your coffee break. Just roll the dice until all 10 of them show the same number. Click on dice to \"hold\" them.",
     "features": [
       "User interviews and usability testing",
       "Journey mapping and pain point analysis",
