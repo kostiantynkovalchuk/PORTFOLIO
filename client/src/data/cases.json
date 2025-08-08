@@ -5,7 +5,7 @@
     "tags": ["React", "Firebase", "UI/UX", "Realtime Chat"],
     "category": "web-development",
     "image": "images/rethingit_cover.jpeg",
-    "url": "https://www.behance.net/gallery/230245555/RethingIt",
+    "url": "https://rethingit-11665.web.app/",
     "description": "A community-driven web app that makes it easy to lend and borrow everyday items locally, reducing waste and promoting sustainable sharing.",
     "features": [
       "Built with Firebase Auth, Firestore, Realtime DB",
@@ -19,7 +19,7 @@
     "tags": ["JavaScript", "UI/UX", "Firebase", "Cloudinary"],
     "category": "web-development",
     "image": "images/rgw_cover.jpeg",
-    "url": "https://www.behance.net/gallery/225635895/Rename-Global-Warming",
+    "url": "https://renameglobalwarming.netlify.app/",
     "description": "A public awareness project inviting users to suggest new names for climate change and share visual evidence of its impact.",
     "features": [
       "Integrated Stripe payment gateway",
@@ -91,6 +91,20 @@
     "image": "images/memegenerator_cover.jpeg",
     "url": "https://kosmemes.netlify.app/",
     "description": "Built mobile-first, this simple yet fun app pulls random images from a meme API, stores them in an array, and lets you generate new memes at the click of a button.",
+    "features": [
+      "Drag and drop task organization",
+      "Offline-first functionality",
+      "Progressive Web App features"
+    ]
+  },
+  {
+    "id": "score-tracker",
+    "title": "Score Tracker",
+    "tags": ["Mobile", "JavaScript", "HTML/CSS", "UI/UX"],
+    "category": "mini-apps",
+    "image": "images/scoretracker_cover.jpeg",
+    "url": "https://kosscore.netlify.app/",
+    "description": "A simple app to track your scores in various games. Keep a record of your best performances and share them with friends.",
     "features": [
       "Drag and drop task organization",
       "Offline-first functionality",
