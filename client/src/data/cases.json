@@ -4,7 +4,7 @@
     "title": "RethingIt",
     "tags": ["React", "Firebase", "UI/UX", "Realtime Chat"],
     "category": "web-development",
-    "image": "images/rethingit_cover2.png",
+    "image": "images/rethingit_cover.jpeg",
     "url": "https://www.behance.net/gallery/230245555/RethingIt",
     "description": "A community-driven web app that makes it easy to lend and borrow everyday items locally, reducing waste and promoting sustainable sharing.",
     "features": [
@@ -18,7 +18,7 @@
     "title": "Rename Global Warming",
     "tags": ["JavaScript", "UI/UX", "Firebase", "Cloudinary"],
     "category": "web-development",
-    "image": "images/rgw_cover.png",
+    "image": "images/rgw_cover.jpeg",
     "url": "https://www.behance.net/gallery/225635895/Rename-Global-Warming",
     "description": "A public awareness project inviting users to suggest new names for climate change and share visual evidence of its impact.",
     "features": [
@@ -32,7 +32,7 @@
     "title": "See The Weather",
     "tags": ["JavaScript", "HTML/CSS", "API"],
     "category": "mini-apps",
-    "image": "images/seeweather_cover.png",
+    "image": "images/seeweather_cover.jpeg",
     "url": "https://kosweather.netlify.app/",
     "description": "This beautiful app integrates multiple APIs to fetch real-time weather data and showcase stock photos matched by location and weather variables.",
     "features": [
@@ -60,7 +60,7 @@
     "title": "Dev´s Wordle",
     "tags": ["Mobile", "React", "UI/UX", "Game Development"],
     "category": "mini-apps",
-    "image": "images/wordle_cover.png",
+    "image": "images/wordle_cover.jpeg",
     "url": "https://kosassembly.netlify.app/",
     "description": "A mobile Wordle-style game with a twist of programmer humor. Each wrong letter eliminates a programming language.",
     "features": [
