@@ -70,9 +70,23 @@
     ]
   },
   {
+    "id": "meme-generator",
+    "title": "Meme Generator",
+    "tags": ["Mobile", "React", "UI/UX", "API"],
+    "category": "mini-apps",
+    "image": "images/memegenerator_cover.jpeg",
+    "url": "https://kosmemes.netlify.app/",
+    "description": "Built mobile-first, this simple yet fun app pulls random images from a meme API, stores them in an array, and lets you generate new memes at the click of a button. The image updates dynamically via React state.",
+    "features": [
+      "Drag and drop task organization",
+      "Offline-first functionality",
+      "Progressive Web App features"
+    ]
+  },
+  {
     "id": "blackjack-game",
     "title": "Blackjack",
-    "tags": ["Mobile", "React", "UI/UX", "Game Development"],
+    "tags": ["Mobile", "UI/UX", "Game Development"],
     "category": "games",
     "image": "images/blackjack_cover.jpeg",
     "url": "https://blackkos.netlify.app/",
