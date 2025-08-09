@@ -15,8 +15,8 @@ export default function HeroSection() {
                 Web Developer & Product Owner
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
-                Building digital products that solve real problems, help people
-                and create value.
+                Building digital products that solve problems, help people and
+                create value.
               </p>
             </div>
           </div>
