@@ -45,76 +45,6 @@
     ]
   },
   {
-    "id": "see-weather",
-    "title": "See The Weather",
-    "tags": ["JavaScript", "HTML/CSS", "API", "Mobile"],
-    "category": "mini-apps",
-    "image": "images/seeweather_cover.jpeg",
-    "url": "https://kosweather.netlify.app/",
-    "description": "This beautiful app integrates multiple APIs to fetch real-time weather data and showcase stock photos matched by location and weather variables.",
-    "features": [
-      "Drag and drop task organization",
-      "Offline-first functionality",
-      "Progressive Web App features"
-    ]
-  },
-  {
-    "id": "unit-converter",
-    "title": "Unit Converter",
-    "tags": ["JavaScript", "HTML", "CSS", "Mobile"],
-    "category": "mini-apps",
-    "image": "images/unitconverter_cover.jpeg",
-    "url": "https://kos-converter.netlify.app/",
-    "description": "Seamlessly convert between meters and feet, liters and gallons, or kilograms and pounds — all with speed, accuracy, and ease. Ideal for professionals and everyday use.",
-    "features": [
-      "Drag and drop task organization",
-      "Offline-first functionality",
-      "Progressive Web App features"
-    ]
-  },
-  {
-    "id": "password-generator",
-    "title": "Password Generator",
-    "tags": ["JavaScript", "HTML", "CSS", "Mobile"],
-    "category": "mini-apps",
-    "image": "images/passwordgenerator_cover.jpeg",
-    "url": "https://kos-pass.netlify.app/",
-    "description": "An app that generates strong, random passwords keeping hackers out of business. Whether you need a quick solution or want to make your old password strong again.",
-    "features": [
-      "Drag and drop task organization",
-      "Offline-first functionality",
-      "Progressive Web App features"
-    ]
-  },
-  {
-    "id": "meme-generator",
-    "title": "Meme Generator",
-    "tags": ["Mobile", "React", "UI/UX", "API"],
-    "category": "mini-apps",
-    "image": "images/memegenerator_cover.jpeg",
-    "url": "https://kosmemes.netlify.app/",
-    "description": "Built mobile-first, this simple yet fun app pulls random images from a meme API, stores them in an array, and lets you generate new memes at the click of a button.",
-    "features": [
-      "Drag and drop task organization",
-      "Offline-first functionality",
-      "Progressive Web App features"
-    ]
-  },
-  {
-    "id": "score-tracker",
-    "title": "Score Tracker",
-    "tags": ["Mobile", "JavaScript", "HTML/CSS", "UI/UX"],
-    "category": "mini-apps",
-    "image": "images/scoretracker_cover.jpeg",
-    "url": "https://kosscore.netlify.app/",
-    "description": "A simple app to track your scores in various games. Keep a record of your best performances and share them with friends.",
-    "features": [
-      "Drag and drop task organization",
-      "Offline-first functionality",
-      "Progressive Web App features"
-    ]
-  },
-  {
     "id": "blackjack-game",
     "title": "Blackjack",
     "tags": ["Mobile", "UI/UX", "Game Development"],
@@ -154,6 +84,76 @@
       "User interviews and usability testing",
       "Journey mapping and pain point analysis",
       "Prototype testing and iteration"
+    ]
+  },
+  {
+    "id": "see-weather",
+    "title": "See The Weather",
+    "tags": ["JavaScript", "HTML/CSS", "API", "Mobile"],
+    "category": "mini-apps",
+    "image": "images/seeweather_cover.jpeg",
+    "url": "https://kosweather.netlify.app/",
+    "description": "This beautiful app integrates multiple APIs to fetch real-time weather data and showcase stock photos matched by location and weather variables.",
+    "features": [
+      "Drag and drop task organization",
+      "Offline-first functionality",
+      "Progressive Web App features"
+    ]
+  },
+  {
+    "id": "meme-generator",
+    "title": "Meme Generator",
+    "tags": ["Mobile", "React", "UI/UX", "API"],
+    "category": "mini-apps",
+    "image": "images/memegenerator_cover.jpeg",
+    "url": "https://kosmemes.netlify.app/",
+    "description": "Built mobile-first, this simple yet fun app pulls random images from a meme API, stores them in an array, and lets you generate new memes at the click of a button.",
+    "features": [
+      "Drag and drop task organization",
+      "Offline-first functionality",
+      "Progressive Web App features"
+    ]
+  },
+  {
+    "id": "password-generator",
+    "title": "Password Generator",
+    "tags": ["JavaScript", "HTML", "CSS", "Mobile"],
+    "category": "mini-apps",
+    "image": "images/passwordgenerator_cover.jpeg",
+    "url": "https://kos-pass.netlify.app/",
+    "description": "An app that generates strong, random passwords keeping hackers out of business. Whether you need a quick solution or want to make your old password strong again.",
+    "features": [
+      "Drag and drop task organization",
+      "Offline-first functionality",
+      "Progressive Web App features"
+    ]
+  },
+  {
+    "id": "score-tracker",
+    "title": "Score Tracker",
+    "tags": ["Mobile", "JavaScript", "HTML/CSS", "UI/UX"],
+    "category": "mini-apps",
+    "image": "images/scoretracker_cover.jpeg",
+    "url": "https://kosscore.netlify.app/",
+    "description": "A simple app to track your scores in various games. Keep a record of your best performances and share them with friends.",
+    "features": [
+      "Drag and drop task organization",
+      "Offline-first functionality",
+      "Progressive Web App features"
+    ]
+  },
+  {
+    "id": "unit-converter",
+    "title": "Unit Converter",
+    "tags": ["JavaScript", "HTML", "CSS", "Mobile"],
+    "category": "mini-apps",
+    "image": "images/unitconverter_cover.jpeg",
+    "url": "https://kos-converter.netlify.app/",
+    "description": "Seamlessly convert between meters and feet, liters and gallons, or kilograms and pounds — all with speed, accuracy, and ease. Ideal for professionals and everyday use.",
+    "features": [
+      "Drag and drop task organization",
+      "Offline-first functionality",
+      "Progressive Web App features"
     ]
   }
 ]
