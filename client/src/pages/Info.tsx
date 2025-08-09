@@ -2,9 +2,32 @@ import ResumeBlock from "@/components/ResumeBlock";
 import { Mail, Phone, Linkedin, Code, Bolt, Lightbulb } from "lucide-react";
 
 export default function Info() {
-  const languages = ["HTML", "CSS", "JavaScript", "React", "Firebase"];
-  const tools = ["Figma", "Behance", "Trello", "GitHub"];
-  const skills = ["Product Management", "UX Design", "App Prototyping"];
+  const languages = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Tailwind",
+  ];
+  const tools = [
+    "JIRA",
+    "Miro",
+    "Figma",
+    "Notion",
+    "Trello",
+    "Git/GitHub",
+    "VS Code",
+    "Postman",
+  ];
+  const skills = [
+    "Agile Methodologies",
+    "Roadmapping",
+    "User Story Mapping",
+    "MVP Delivery",
+    "Customer Journey Mapping",
+    "KPI Definition",
+  ];
 
   return (
     <div className="pt-20">
@@ -41,11 +64,11 @@ export default function Info() {
                 <Code className="text-electric-blue w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Languages</h3>
-              <div className="space-y-2">
+              <div className="flex flex-wrap gap-2 justify-center">
                 {languages.map((lang) => (
                   <span
                     key={lang}
-                    className="inline-block px-3 py-1 bg-white rounded-full text-sm font-medium text-gray-700 m-1"
+                    className="px-2 py-1 bg-electric-blue/10 text-electric-blue text-sm font-medium rounded-full"
                   >
                     {lang}
                   </span>
@@ -59,11 +82,11 @@ export default function Info() {
                 <Bolt className="text-electric-blue w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Tools</h3>
-              <div className="space-y-2">
+              <div className="flex flex-wrap gap-2 justify-center">
                 {tools.map((tool) => (
                   <span
                     key={tool}
-                    className="inline-block px-3 py-1 bg-white rounded-full text-sm font-medium text-gray-700 m-1"
+                    className="px-2 py-1 bg-electric-blue/10 text-electric-blue text-sm font-medium rounded-full"
                   >
                     {tool}
                   </span>
@@ -77,11 +100,11 @@ export default function Info() {
                 <Lightbulb className="text-electric-blue w-8 h-8" />
               </div>
               <h3 className="text-xl font-semibold mb-4">Skills</h3>
-              <div className="space-y-2">
+              <div className="flex flex-wrap gap-2 justify-center">
                 {skills.map((skill) => (
                   <span
                     key={skill}
-                    className="inline-block px-3 py-1 bg-white rounded-full text-sm font-medium text-gray-700 m-1"
+                    className="px-2 py-1 bg-electric-blue/10 text-electric-blue text-sm font-medium rounded-full"
                   >
                     {skill}
                   </span>
