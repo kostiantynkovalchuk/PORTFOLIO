@@ -21,7 +21,7 @@ export default function Info() {
     "Postman",
   ];
   const skills = [
-    "Agile Methodologies",
+    "Agile/Scrum",
     "Roadmapping",
     "User Story Mapping",
     "MVP Delivery",
