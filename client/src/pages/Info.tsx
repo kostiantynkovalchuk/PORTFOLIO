@@ -100,26 +100,26 @@ export default function Info() {
           <div className="grid md:grid-cols-3 gap-8">
             {/* Email */}
             <a
-              href="mailto:kostiantyn@email.com"
+              href="mailto:kostiantynkovalchuk32@gmail.com"
               className="group flex flex-col items-center p-6 rounded-2xl hover:bg-gray-50 transition-colors"
             >
               <div className="w-16 h-16 bg-electric-blue/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-electric-blue transition-colors">
                 <Mail className="text-electric-blue group-hover:text-white w-8 h-8 transition-colors" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Email</h3>
-              <p className="text-gray-600">kostiantyn@email.com</p>
+              <p className="text-gray-600">kostiantynkovalchuk32@gmail.com</p>
             </a>
 
             {/* Phone */}
             <a
-              href="tel:+34123456789"
+              href="tel:+34692480784"
               className="group flex flex-col items-center p-6 rounded-2xl hover:bg-gray-50 transition-colors"
             >
               <div className="w-16 h-16 bg-electric-blue/10 rounded-2xl flex items-center justify-center mb-4 group-hover:bg-electric-blue transition-colors">
                 <Phone className="text-electric-blue group-hover:text-white w-8 h-8 transition-colors" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Phone</h3>
-              <p className="text-gray-600">+34 123 456 789</p>
+              <p className="text-gray-600">+34 692 480 784</p>
             </a>
 
             {/* LinkedIn */}
