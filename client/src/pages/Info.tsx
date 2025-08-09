@@ -22,11 +22,10 @@ export default function Info() {
   ];
   const skills = [
     "Agile/Scrum",
-    "Roadmapping",
     "User Story Mapping",
-    "MVP Delivery",
     "Customer Journey Mapping",
-    "KPI Definition",
+    "KPI",
+    "MVP Delivery",
   ];
 
   return (
@@ -39,12 +38,14 @@ export default function Info() {
           <div className="text-center mb-12">
             <h2 className="text-3xl font-semibold mb-6">About Me</h2>
             <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
-              I'm a passionate Product Owner and Frontend Developer with over 5
-              years of experience building digital products that make a
-              difference. I bridge the gap between user needs and technical
-              implementation, ensuring every product delivers exceptional value.
-              My expertise spans from strategic product planning to hands-on
-              development with modern web technologies.
+              "I bring a unique blend of creative thinking, strategic
+              leadership, and technical understanding — enabling the translation
+              of bold ideas into user-centric solutions that work across Mobile
+              and Web. My background spans global environments, where I’ve led
+              projects that align design, development, and business goals. I
+              thrive in fast-moving, collaborative settings and focus on
+              building products that not only function well — but are meaningful
+              and helpful to the people."
             </p>
           </div>
         </div>
