@@ -60,7 +60,7 @@
   },
   {
     "id": "wordle-game",
-    "title": "Dev´s Wordle",
+    "title": "Dev's Wordle",
     "tags": ["Mobile", "React", "UI/UX", "Game Development"],
     "category": "games",
     "image": "images/wordle_cover.jpeg",
