@@ -40,12 +40,11 @@ export default function Info() {
             <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
               "I bring a unique blend of creative thinking, strategic
               leadership, and technical understanding — enabling the translation
-              of bold ideas into user-centric solutions that work across Mobile
-              and Web. My background spans global environments, where I’ve led
-              projects that align design, development, and business goals. I
-              thrive in fast-moving, collaborative settings and focus on
-              building products that not only function well — but are meaningful
-              and helpful to the people."
+              of bold ideas into user-centric solutions across Mobile and Web.
+              My background spans global environments, where I’ve led projects
+              that align design, development, and business goals. I thrive in
+              fast-moving, collaborative settings and focus on building products
+              that not only function well — but create impact."
             </p>
           </div>
         </div>
