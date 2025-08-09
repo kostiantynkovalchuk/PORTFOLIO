@@ -43,7 +43,7 @@ export default function ResumeBlock() {
               <div>
                 <h2 className="text-2xl font-semibold mb-2">Resume</h2>
                 <p className="text-gray-600">
-                  View my complete professional background and experience.
+                  View my professional background and experience.
                 </p>
               </div>
               <button
