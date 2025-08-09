@@ -6,6 +6,7 @@
     "category": ["web-development", "product-management"],
     "image": "images/rethingit_cover.jpeg",
     "url": "https://rethingit-11665.web.app/",
+    "behanceUrl": "https://www.behance.net/gallery/230245555/RethingIt",
     "description": "A community-driven web app that makes it easy to lend and borrow everyday items locally, reducing waste and promoting sustainable sharing.",
     "features": [
       "Built with Firebase Auth, Firestore, Realtime DB",
@@ -20,6 +21,7 @@
     "category": ["web-development", "product-management"],
     "image": "images/rgw_cover.jpeg",
     "url": "https://renameglobalwarming.netlify.app/",
+    "behanceUrl": "https://www.behance.net/gallery/225635895/Rename-Global-Warming",
     "description": "A public awareness project inviting users to suggest new names for climate change and share visual evidence of its impact.",
     "features": [
       "Integrated Stripe payment gateway",
@@ -34,6 +36,7 @@
     "category": ["web-development", "product-management"],
     "image": "images/citadel_cover.jpeg",
     "url": "https://ctadel.netlify.app/",
+    "behanceUrl": "https://www.behance.net/your-citadel-project",
     "description": "A bilingual landing page for a Ukrainian MilTech startup featuring a bold USP, 3D product demo, and lead capture form.",
     "features": [
       "Integrated Stripe payment gateway",

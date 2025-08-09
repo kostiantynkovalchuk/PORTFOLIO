@@ -5,18 +5,26 @@ interface CaseCardProps {
     id: string;
     title: string;
     tags: string[];
-    category: string;
+    category: string | string[];
     image: string;
     url: string;
+    behanceUrl?: string;
     description: string;
     features: string[];
+    currentFilter?: string;
   };
 }
 
 export default function CaseCard({ case: caseItem }: CaseCardProps) {
+  // Determine which URL to use based on current filter
+  const targetUrl =
+    caseItem.currentFilter === "product-management" && caseItem.behanceUrl
+      ? caseItem.behanceUrl
+      : caseItem.url;
+
   return (
     <a
-      href={caseItem.url}
+      href={targetUrl}
       target="_blank"
       rel="noopener noreferrer"
       className="block group bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300"
