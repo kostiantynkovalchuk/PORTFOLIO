@@ -37,7 +37,6 @@ export default function Info() {
     "Customer Journey Mapping",
     "KPI Tracking",
   ];
-}
 
   return (
     <div className="pt-20">
