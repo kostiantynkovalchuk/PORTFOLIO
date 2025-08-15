@@ -12,7 +12,7 @@ export default function HeroSection() {
                 Kostiantyn Kovalchuk
               </h1>
               <h2 className="text-xl lg:text-2xl text-gray-600 font-medium mb-6">
-                Web Developer & Product Owner
+                Creative Web Developer & Product Owner
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Building digital products that solve problems, help people and

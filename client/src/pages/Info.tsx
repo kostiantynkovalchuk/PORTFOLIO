@@ -8,8 +8,11 @@ export default function Info() {
     "JavaScript",
     "TypeScript",
     "React",
-    "Tailwind",
+    "Node.js",
+    "Express.js",
+    "SQL",
   ];
+
   const tools = [
     "JIRA",
     "Miro",
@@ -19,14 +22,22 @@ export default function Info() {
     "Git/GitHub",
     "VS Code",
     "Postman",
+    "Firebase",
+    "Hugging Face",
+    "Anthropic API",
   ];
+
   const skills = [
+    "Full-Stack Web Development",
     "Agile/Scrum",
+    "MVP Delivery",
+    "Creative Direction",
+    "Product Ownership",
     "User Story Mapping",
     "Customer Journey Mapping",
-    "KPI",
-    "MVP Delivery",
+    "KPI Tracking",
   ];
+}
 
   return (
     <div className="pt-20">
