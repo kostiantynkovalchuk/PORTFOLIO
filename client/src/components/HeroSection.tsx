@@ -12,7 +12,8 @@ export default function HeroSection() {
                 Kostiantyn Kovalchuk
               </h1>
               <h2 className="text-xl lg:text-2xl text-gray-600 font-medium mb-6">
-                Creative Web Developer & Product Owner
+                Creative Web Developer &<br className="sm:hidden" /> Product
+                Owner
               </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
                 Building digital products that solve problems, help people and
@@ -23,15 +24,6 @@ export default function HeroSection() {
 
           {/* Right Column - Video Toggle */}
           <div className="lg:order-2">
-            <div
-              style={{
-                backgroundColor: "red",
-                color: "white",
-                padding: "20px",
-              }}
-            >
-              TEST: VideoToggle should appear below this
-            </div>
             <VideoToggle />
           </div>
         </div>
