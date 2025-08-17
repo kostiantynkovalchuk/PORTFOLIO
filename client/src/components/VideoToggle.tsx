@@ -10,26 +10,43 @@ export default function VideoToggle() {
   const [videoError, setVideoError] = useState(false);
   const videoRef = useRef(null);
 
+  console.log("🎬 VideoToggle component loaded!");
+  console.log(
+    "🎬 VideoToggle render - showVideo:",
+    showVideo,
+    "language:",
+    selectedLanguage
+  );
 
   const handlePlayClick = () => {
+    console.log("🎥 Play button clicked! Current showVideo:", showVideo);
     setShowVideo(true);
     setVideoError(false);
+    console.log("🎥 Set showVideo to true");
   };
 
   const handleVideoError = () => {
+    console.log("❌ Video failed to load, falling back to photo");
     setVideoError(true);
     setShowVideo(false);
   };
 
   const handleLanguageChange = (newLanguage) => {
+    console.log(
+      "🌐 Language changed from",
+      selectedLanguage,
+      "to",
+      newLanguage
+    );
     setSelectedLanguage(newLanguage);
 
     // If video is playing, reload it with new language
     if (showVideo && videoRef.current) {
+      console.log("🔄 Reloading video with new language");
       videoRef.current.load(); // This forces the video to reload with new sources
-      videoRef.current.play().catch(() => {
-        // Silently handle autoplay prevention
-      });
+      videoRef.current
+        .play()
+        .catch((e) => console.log("Autoplay prevented:", e));
     }
   };
 
@@ -40,9 +57,9 @@ export default function VideoToggle() {
           <>
             {/* Photo Cover */}
             <img
-              src="/images/kos.jpg"
+              src="images/kos.jpg"
               alt="Kostiantyn Kovalchuk"
-              className="w-full h-full object-cover object-[center_10%]"
+              className="w-full h-full object-cover object-[center_20%]"
             />
 
             {/* Video Controls Overlay */}
@@ -155,16 +172,6 @@ export default function VideoToggle() {
                   ES
                 </button>
               </div>
-            </div>
-
-            {/* Close Video Button */}
-            <div className="absolute top-4 left-4">
-              <button
-                onClick={() => setShowVideo(false)}
-                className="w-10 h-10 bg-black/70 hover:bg-black/90 text-white rounded-full flex items-center justify-center transition-colors"
-              >
-                ×
-              </button>
             </div>
           </>
         )}
