@@ -10,43 +10,26 @@ export default function VideoToggle() {
   const [videoError, setVideoError] = useState(false);
   const videoRef = useRef(null);
 
-  console.log("🎬 VideoToggle component loaded!");
-  console.log(
-    "🎬 VideoToggle render - showVideo:",
-    showVideo,
-    "language:",
-    selectedLanguage
-  );
 
   const handlePlayClick = () => {
-    console.log("🎥 Play button clicked! Current showVideo:", showVideo);
     setShowVideo(true);
     setVideoError(false);
-    console.log("🎥 Set showVideo to true");
   };
 
   const handleVideoError = () => {
-    console.log("❌ Video failed to load, falling back to photo");
     setVideoError(true);
     setShowVideo(false);
   };
 
   const handleLanguageChange = (newLanguage) => {
-    console.log(
-      "🌐 Language changed from",
-      selectedLanguage,
-      "to",
-      newLanguage
-    );
     setSelectedLanguage(newLanguage);
 
     // If video is playing, reload it with new language
     if (showVideo && videoRef.current) {
-      console.log("🔄 Reloading video with new language");
       videoRef.current.load(); // This forces the video to reload with new sources
-      videoRef.current
-        .play()
-        .catch((e) => console.log("Autoplay prevented:", e));
+      videoRef.current.play().catch(() => {
+        // Silently handle autoplay prevention
+      });
     }
   };
 
