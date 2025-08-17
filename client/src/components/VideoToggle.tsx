@@ -62,16 +62,16 @@ export default function VideoToggle() {
               className="w-full h-full object-cover object-[center_20%]"
             />
 
-            {/* Video Controls Overlay */}
-            <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+            {/* Video Controls Overlay - Always Visible */}
+            <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center">
                 <div
                   onClick={handlePlayClick}
-                  className="w-16 h-16 bg-white/90 rounded-full flex items-center justify-center mx-auto mb-4 hover:bg-white transition-colors"
+                  className="w-16 h-16 bg-white/90 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-4 hover:bg-white hover:scale-105 transition-all duration-200 shadow-lg"
                 >
                   <Play className="text-blue-600 w-6 h-6 ml-1" />
                 </div>
-                <p className="text-white font-medium">
+                <p className="text-white font-medium text-sm bg-black/50 backdrop-blur-sm px-3 py-1 rounded-full">
                   {videoError
                     ? "Video unavailable - Try again"
                     : "Introduction Video"}
