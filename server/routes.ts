@@ -2,8 +2,12 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import path from "path";
+import express from "express";
 
 export async function registerRoutes(app: Express): Promise<Server> {
+  // Serve static files from dist/public (where Vite builds to)
+  app.use(express.static(path.resolve("dist/public")));
+
   // put application routes here
   // prefix all routes with /api
 
@@ -14,7 +18,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("*", (req, res) => {
     // Only catch non-API routes
     if (!req.path.startsWith("/api")) {
-      res.sendFile(path.resolve("dist/index.html"));
+      res.sendFile(path.resolve("dist/public/index.html"));
     }
   });
 
