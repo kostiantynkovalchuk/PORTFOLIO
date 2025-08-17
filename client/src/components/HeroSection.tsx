@@ -23,6 +23,15 @@ export default function HeroSection() {
 
           {/* Right Column - Video Toggle */}
           <div className="lg:order-2">
+            <div
+              style={{
+                backgroundColor: "red",
+                color: "white",
+                padding: "20px",
+              }}
+            >
+              TEST: VideoToggle should appear below this
+            </div>
             <VideoToggle />
           </div>
         </div>
