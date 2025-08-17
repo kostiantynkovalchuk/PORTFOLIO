@@ -59,7 +59,7 @@ export default function VideoToggle() {
             <img
               src="images/kos.jpg"
               alt="Kostiantyn Kovalchuk"
-              className="w-full h-full object-cover object-[center_25%]"
+              className="w-full h-full object-cover object-[center_15%]"
             />
 
             {/* Video Controls Overlay - Always Visible */}
