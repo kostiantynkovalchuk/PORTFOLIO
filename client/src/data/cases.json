@@ -180,7 +180,7 @@
     "tags": ["React", "CloudFlare Pages", "Claude API", "Mobile"],
     "category": "ai",
     "image": "images/describer_cover.jpeg",
-    "url": "https://worker.kos-describe.workers.dev/",
+    "url": "https://describer.pages.dev/",
     "description": "Equipped with accessibility features, The Describer helps people with impaired sight by providing AI-powered voice and text descriptions of images."
   }
 ]
