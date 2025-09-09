@@ -159,7 +159,7 @@
   {
     "id": "summarizer",
     "title": "Text Summarizer",
-    "tags": ["JavaScript", "CloudFlare Worker", "Claude API", "Mobile"],
+    "tags": ["JavaScript", "CloudFlare Worker", "Claude API"],
     "category": "ai",
     "image": "images/summarizer_cover.jpeg",
     "url": "https://worker.kos-summarize.workers.dev/",
@@ -177,7 +177,7 @@
   {
     "id": "describer",
     "title": "Image Describer",
-    "tags": ["React", "CloudFlare Pages", "Claude API", "Mobile"],
+    "tags": ["React", "CloudFlare Pages", "Claude API"],
     "category": "ai",
     "image": "images/describer_cover.jpeg",
     "url": "https://describer.pages.dev/",
