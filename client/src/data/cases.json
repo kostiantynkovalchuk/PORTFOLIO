@@ -155,5 +155,32 @@
       "Offline-first functionality",
       "Progressive Web App features"
     ]
+  },
+  {
+    "id": "summarizer",
+    "title": "Text Summarizer",
+    "tags": ["JavaScript", "CloudFlare Worker", "Claude API", "Mobile"],
+    "category": "ai",
+    "image": "images/summarizer_cover.jpeg",
+    "url": "https://worker.kos-summarize.workers.dev/",
+    "description": "A powerful tool that uses AI to summarize long texts into concise, easy-to-read summaries."
+  },
+  {
+    "id": "koschef",
+    "title": "Kos Chef",
+    "tags": ["React", "Netlify Function", "Claude API", "Mobile"],
+    "category": "ai",
+    "image": "images/koschef_cover.jpeg",
+    "url": "https://kos-chef.netlify.app/",
+    "description": "An AI-powered recipe generator that creates unique recipes based on your ingredients."
+  },
+  {
+    "id": "describer",
+    "title": "Image Describer",
+    "tags": ["React", "CloudFlare Pages", "Claude API", "Mobile"],
+    "category": "ai",
+    "image": "images/describer_cover.jpeg",
+    "url": "https://worker.kos-describe.workers.dev/",
+    "description": "Equipped with accessibility features, The Describer helps people with impaired sight by providing AI-powered voice and text descriptions of images."
   }
 ]

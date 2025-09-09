@@ -15,6 +15,7 @@ export default function FilterBar({
     { id: "web-development", label: "Web Development" },
     { id: "product-management", label: "Product Management" },
     { id: "games", label: "Games" },
+    { id: "ai", label: "AI" },
   ];
 
   return (
