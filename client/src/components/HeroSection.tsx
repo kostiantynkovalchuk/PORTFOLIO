@@ -9,7 +9,7 @@ export default function HeroSection() {
           <div className="space-y-6 lg:order-1">
             <div>
               <h1 className="text-4xl lg:text-5xl font-bold text-dark-text leading-tight mb-4">
-                Kostiantyn Kovalchuk
+                Kos Kova
               </h1>
               <h2 className="text-xl lg:text-2xl text-gray-600 font-medium mb-6">
                 Creative Web Developer &<br className="sm:hidden" /> Product
