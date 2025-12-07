@@ -140,7 +140,7 @@ export default function Info() {
                 <Mail className="text-electric-blue group-hover:text-white w-8 h-8 transition-colors" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Email</h3>
-              <p className="text-gray-600">kostiantynkovalchuk32@gmail.com</p>
+              <p className="text-gray-600">kos.kova@outlook.com</p>
             </a>
 
             {/* Phone */}
