@@ -45,6 +45,20 @@
     ]
   },
   {
+    "id": "funju",
+    "title": "FUNJU",
+    "tags": ["Supabase", "Leaflet.js", "UI/UX", "E-commerce"],
+    "category": ["web-development", "product-management"],
+    "image": "images/funjucover.jpeg",
+    "url": "https://funju.bar/",
+    "description": "Launch website for FUNJU — Korean-inspired soju targeting Ukrainian consumers. Combines product storytelling with e-commerce integration and lead generation.",
+    "features": [
+      "i18n (Ukrainian/English) with age verification",
+      "Interactive 3D bottle presentation and product videos",
+      "Geo-targeted POS locator with social media integration"
+    ]
+  },
+  {
     "id": "blackjack-game",
     "title": "Blackjack",
     "tags": ["Mobile", "UI/UX", "Game Development"],
@@ -128,34 +142,34 @@
       "Progressive Web App features"
     ]
   },
-  {
-    "id": "score-tracker",
-    "title": "Score Tracker",
-    "tags": ["Mobile", "JavaScript", "HTML/CSS", "UI/UX"],
-    "category": "mini-apps",
-    "image": "images/scoretracker_cover.jpeg",
-    "url": "https://kosscore.netlify.app/",
-    "description": "A simple app to track your scores in various games. Keep a record of your best performances and share them with friends.",
-    "features": [
-      "Drag and drop task organization",
-      "Offline-first functionality",
-      "Progressive Web App features"
-    ]
-  },
-  {
-    "id": "unit-converter",
-    "title": "Unit Converter",
-    "tags": ["JavaScript", "HTML", "CSS", "Mobile"],
-    "category": "mini-apps",
-    "image": "images/unitconverter_cover.jpeg",
-    "url": "https://kos-converter.netlify.app/",
-    "description": "Seamlessly convert between meters and feet, liters and gallons, or kilograms and pounds — all with speed, accuracy, and ease. Ideal for professionals and everyday use.",
-    "features": [
-      "Drag and drop task organization",
-      "Offline-first functionality",
-      "Progressive Web App features"
-    ]
-  },
+  // {
+  //   "id": "score-tracker",
+  //   "title": "Score Tracker",
+  //   "tags": ["Mobile", "JavaScript", "HTML/CSS", "UI/UX"],
+  //   "category": "mini-apps",
+  //   "image": "images/scoretracker_cover.jpeg",
+  //   "url": "https://kosscore.netlify.app/",
+  //   "description": "A simple app to track your scores in various games. Keep a record of your best performances and share them with friends.",
+  //   "features": [
+  //     "Drag and drop task organization",
+  //     "Offline-first functionality",
+  //     "Progressive Web App features"
+  //   ]
+  // },
+  // {
+  //   "id": "unit-converter",
+  //   "title": "Unit Converter",
+  //   "tags": ["JavaScript", "HTML", "CSS", "Mobile"],
+  //   "category": "mini-apps",
+  //   "image": "images/unitconverter_cover.jpeg",
+  //   "url": "https://kos-converter.netlify.app/",
+  //   "description": "Seamlessly convert between meters and feet, liters and gallons, or kilograms and pounds — all with speed, accuracy, and ease. Ideal for professionals and everyday use.",
+  //   "features": [
+  //     "Drag and drop task organization",
+  //     "Offline-first functionality",
+  //     "Progressive Web App features"
+  //   ]
+  // },
   {
     "id": "summarizer",
     "title": "Text Summarizer",
