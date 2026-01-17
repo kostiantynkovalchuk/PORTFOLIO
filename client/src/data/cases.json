@@ -46,10 +46,10 @@
   },
   {
     "id": "funju",
-    "title": "FUNJU",
+    "title": "Funju",
     "tags": ["Supabase", "Leaflet.js", "UI/UX", "E-commerce"],
     "category": ["web-development", "product-management"],
-    "image": "images/funjucover.jpeg",
+    "image": "images/funjucover.png",
     "url": "https://funju.bar/",
     "description": "Launch website for FUNJU — Korean-inspired soju targeting Ukrainian consumers. Combines product storytelling with e-commerce integration and lead generation.",
     "features": [
@@ -61,12 +61,12 @@
   {
     "id": "gradus-ai",
     "title": "Gradus AI",
-    "tags": ["Agentic AI", "Claude API", "HeyGen", "PostgreSQL"],
-    "category": "product-management",
-    "image": "images/prof.png",
-    "url": "https://gradus-ai-en.vercel.app/",
+    "tags": ["Agentic AI", "HeyGen", "PostgreSQL"],
+    "category": ["web-development", "product-management"],
+    "image": "images/graduscover.png",
+    "url": "https://www.gradusmedia.org/",
     "behanceUrl": "https://www.behance.net/gallery/242382423/Gradus-AI?platform=direct",
-    "description": "An ambitious AI-powered content marketing automation platform designed for the alcohol industry (beverages/spirits B2B). The system features a 4-stage roadmap that progressively automates the entire marketing-to-sales funnel using AI avatars, content generation, and autonomous agent workflows.",
+    "description": "An ambitious AI-powered beverage industry platform enabling the entire marketing-to-sales funnel with the help of AI avatars, content generation, and autonomous agent workflows.",
     "features": [
       "🤖 Autonomous Content Pipeline",
       "🎭 AI Avatar Personalities",
@@ -158,34 +158,6 @@
       "Progressive Web App features"
     ]
   },
-  // {
-  //   "id": "score-tracker",
-  //   "title": "Score Tracker",
-  //   "tags": ["Mobile", "JavaScript", "HTML/CSS", "UI/UX"],
-  //   "category": "mini-apps",
-  //   "image": "images/scoretracker_cover.jpeg",
-  //   "url": "https://kosscore.netlify.app/",
-  //   "description": "A simple app to track your scores in various games. Keep a record of your best performances and share them with friends.",
-  //   "features": [
-  //     "Drag and drop task organization",
-  //     "Offline-first functionality",
-  //     "Progressive Web App features"
-  //   ]
-  // },
-  // {
-  //   "id": "unit-converter",
-  //   "title": "Unit Converter",
-  //   "tags": ["JavaScript", "HTML", "CSS", "Mobile"],
-  //   "category": "mini-apps",
-  //   "image": "images/unitconverter_cover.jpeg",
-  //   "url": "https://kos-converter.netlify.app/",
-  //   "description": "Seamlessly convert between meters and feet, liters and gallons, or kilograms and pounds — all with speed, accuracy, and ease. Ideal for professionals and everyday use.",
-  //   "features": [
-  //     "Drag and drop task organization",
-  //     "Offline-first functionality",
-  //     "Progressive Web App features"
-  //   ]
-  // },
   {
     "id": "summarizer",
     "title": "Text Summarizer",
