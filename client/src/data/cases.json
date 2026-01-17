@@ -59,6 +59,22 @@
     ]
   },
   {
+    "id": "gradus-ai",
+    "title": "Gradus AI",
+    "tags": ["Agentic AI", "Claude API", "HeyGen", "PostgreSQL"],
+    "category": "product-management",
+    "image": "images/prof.png",
+    "url": "https://gradus-ai-en.vercel.app/",
+    "behanceUrl": "https://www.behance.net/gallery/242382423/Gradus-AI?platform=direct",
+    "description": "An ambitious AI-powered content marketing automation platform designed for the alcohol industry (beverages/spirits B2B). The system features a 4-stage roadmap that progressively automates the entire marketing-to-sales funnel using AI avatars, content generation, and autonomous agent workflows.",
+    "features": [
+      "🤖 Autonomous Content Pipeline",
+      "🎭 AI Avatar Personalities",
+      "📊 Multi-Platform Distribution",
+      "🎯 B2B Targeting"
+    ]
+  },
+  {
     "id": "blackjack-game",
     "title": "Blackjack",
     "tags": ["Mobile", "UI/UX", "Game Development"],
