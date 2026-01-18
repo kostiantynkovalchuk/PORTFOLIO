@@ -51,6 +51,7 @@
     "category": ["web-development", "product-management"],
     "image": "images/funjucover.png",
     "url": "https://funju.bar/",
+    "behanceUrl": "https://www.behance.net/gallery/242435501/FUNJU",
     "description": "Launch website for FUNJU — Korean-inspired soju targeting Ukrainian consumers. Combines product storytelling with e-commerce integration and lead generation.",
     "features": [
       "i18n (Ukrainian/English) with age verification",
