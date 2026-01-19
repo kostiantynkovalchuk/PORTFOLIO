@@ -160,15 +160,6 @@
     ]
   },
   {
-    "id": "summarizer",
-    "title": "Text Summarizer",
-    "tags": ["JavaScript", "CloudFlare Worker", "Claude API"],
-    "category": "ai",
-    "image": "images/summarizer_cover.jpeg",
-    "url": "https://worker.kos-summarize.workers.dev/",
-    "description": "A powerful tool that uses AI to summarize long texts into concise, easy-to-read summaries."
-  },
-  {
     "id": "koschef",
     "title": "Kos Chef",
     "tags": ["React", "Netlify Function", "Claude API", "Mobile"],
