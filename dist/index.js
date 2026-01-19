@@ -1,21 +1,28 @@
 // server/index.ts
-import express2 from "express";
+import express3 from "express";
 
 // server/routes.ts
 import { createServer } from "http";
 import path from "path";
+import express from "express";
 async function registerRoutes(app2) {
-  app2.get("*", (req, res) => {
-    if (!req.path.startsWith("/api")) {
-      res.sendFile(path.resolve("dist/index.html"));
-    }
-  });
+  if (app2.get("env") !== "development") {
+    console.log("\u{1F4E6} Routes: Setting up static file serving");
+    app2.use(express.static(path.resolve("dist/public")));
+    app2.get("*", (req, res) => {
+      if (!req.path.startsWith("/api")) {
+        res.sendFile(path.resolve("dist/public/index.html"));
+      }
+    });
+  } else {
+    console.log("\u{1F680} Routes: Skipping static routes (Vite will handle)");
+  }
   const httpServer = createServer(app2);
   return httpServer;
 }
 
 // server/vite.ts
-import express from "express";
+import express2 from "express";
 import fs from "fs";
 import path3 from "path";
 import { createServer as createViteServer, createLogger } from "vite";
@@ -116,16 +123,16 @@ function serveStatic(app2) {
       `Could not find the build directory: ${distPath}, make sure to build the client first`
     );
   }
-  app2.use(express.static(distPath));
+  app2.use(express2.static(distPath));
   app2.use("*", (_req, res) => {
     res.sendFile(path3.resolve(distPath, "index.html"));
   });
 }
 
 // server/index.ts
-var app = express2();
-app.use(express2.json());
-app.use(express2.urlencoded({ extended: false }));
+var app = express3();
+app.use(express3.json());
+app.use(express3.urlencoded({ extended: false }));
 app.use((req, res, next) => {
   const start = Date.now();
   const path4 = req.path;
@@ -158,9 +165,12 @@ app.use((req, res, next) => {
     res.status(status).json({ message });
     throw err;
   });
+  console.log("\u{1F527} Environment check:", app.get("env"));
   if (app.get("env") === "development") {
+    console.log("\u{1F680} Setting up Vite development server");
     await setupVite(app, server);
   } else {
+    console.log("\u{1F4E6} Setting up static file serving");
     serveStatic(app);
   }
   const port = parseInt(process.env.PORT || "5001", 10);
