@@ -2,13 +2,13 @@ import { Download, ExternalLink } from "lucide-react";
 
 export default function ResumeBlock() {
   const handleThumbnailClick = () => {
-    window.open("/PO_WEBDEV resume.pdf", "_blank", "noopener,noreferrer");
+    window.open("/kos_kova_ai_engineer_resume.docx", "_blank", "noopener,noreferrer");
   };
 
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/PO_WEBDEV resume.pdf";
-    link.download = "Kostiantyn_Kovalchuk_Resume.pdf";
+    link.href = "/kos_kova_ai_engineer_resume.docx";
+    link.download = "Kostiantyn_Kovalchuk_Resume.docx";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
