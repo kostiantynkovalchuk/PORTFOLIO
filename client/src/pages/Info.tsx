@@ -52,10 +52,12 @@ export default function Info() {
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-semibold mb-8">About Me</h2>
-            <p className="text-2xl text-gray-700 leading-relaxed max-w-4xl mx-auto font-bold">
+            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed max-w-4xl mx-auto font-bold mb-6">
               "I bring a unique blend of creative thinking, strategic
               leadership, and technical understanding — enabling the translation
               of bold ideas into user-centric solutions across Mobile and Web.
+            </p>
+            <p className="text-xl md:text-2xl text-electric-blue leading-relaxed max-w-4xl mx-auto font-bold">
               My background spans global environments, where I've led projects
               that align design, development, and business goals. I thrive in
               fast-moving, collaborative settings and focus on building products
