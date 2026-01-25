@@ -3,39 +3,39 @@ import { Mail, Phone, Linkedin, Code, Bolt, Lightbulb } from "lucide-react";
 
 export default function Info() {
   const languages = [
-    "HTML",
-    "CSS",
     "JavaScript",
     "TypeScript",
     "React",
     "Node.js",
-    "Express.js",
+    "Next.js",
+    "HTML",
+    "CSS",
     "SQL",
   ];
 
   const tools = [
-    "JIRA",
-    "Miro",
+    "Claude API",
+    "OpenAI GPT",
+    "Midjourney",
+    "ElevenLabs",
+    "Cursor",
+    "Firebase",
+    "Supabase",
+    "PostgreSQL",
+    "Git/GitHub",
     "Figma",
     "Notion",
-    "Trello",
-    "Git/GitHub",
-    "VS Code",
-    "Postman",
-    "Firebase",
-    "Hugging Face",
-    "Anthropic API",
   ];
 
   const skills = [
-    "Full-Stack Web Development",
+    "LLM Integration",
+    "Prompt Engineering",
+    "AI Agent Development",
+    "AI Content Generation",
+    "Full-Stack Development",
+    "API Integration",
+    "Product Management",
     "Agile/Scrum",
-    "MVP Delivery",
-    "Creative Direction",
-    "Product Ownership",
-    "User Story Mapping",
-    "Customer Journey Mapping",
-    "KPI Tracking",
   ];
 
   return (
@@ -47,11 +47,11 @@ export default function Info() {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-semibold mb-6">About Me</h2>
-            <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto font-bold">
               "I bring a unique blend of creative thinking, strategic
               leadership, and technical understanding — enabling the translation
               of bold ideas into user-centric solutions across Mobile and Web.
-              My background spans global environments, where I’ve led projects
+              My background spans global environments, where I've led projects
               that align design, development, and business goals. I thrive in
               fast-moving, collaborative settings and focus on building products
               that not only function well — but create impact."

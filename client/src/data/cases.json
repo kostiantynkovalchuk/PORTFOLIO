@@ -1,5 +1,51 @@
 [
   {
+    "id": "gradus-ai",
+    "title": "Gradus AI",
+    "tags": ["Agentic AI", "HeyGen", "PostgreSQL"],
+    "category": ["web-development", "product-management", "ai"],
+    "image": "images/graduscover.png",
+    "url": "https://www.gradusmedia.org/",
+    "behanceUrl": "https://www.behance.net/gallery/242382423/Gradus-AI?platform=direct",
+    "description": "An ambitious AI-powered beverage industry platform enabling the entire marketing-to-sales funnel with the help of AI avatars, content generation, and autonomous agent workflows.",
+    "features": [
+      "🤖 Autonomous Content Pipeline",
+      "🎭 AI Avatar Personalities",
+      "📊 Multi-Platform Distribution",
+      "🎯 B2B Targeting"
+    ]
+  },
+  {
+    "id": "funju",
+    "title": "Funju",
+    "tags": ["Supabase", "Leaflet.js", "UI/UX", "E-commerce"],
+    "category": ["web-development", "product-management", "ai"],
+    "image": "images/funjucover.png",
+    "url": "https://funju.bar/",
+    "behanceUrl": "https://www.behance.net/gallery/242435501/FUNJU",
+    "description": "Launch website for FUNJU — Korean-inspired soju targeting Ukrainian consumers. Combines product storytelling with e-commerce integration and lead generation.",
+    "features": [
+      "i18n (Ukrainian/English) with age verification",
+      "Interactive 3D bottle presentation and product videos",
+      "Geo-targeted POS locator with social media integration"
+    ]
+  },
+  {
+    "id": "citadel",
+    "title": "Citadel",
+    "tags": ["JavaScript", "UI/UX", "HTML", "CSS"],
+    "category": ["web-development", "product-management"],
+    "image": "images/citadel_cover.jpeg",
+    "url": "https://ctadel.netlify.app/",
+    "behanceUrl": "https://www.behance.net/gallery/232491537/Citadel",
+    "description": "A bilingual landing page for a Ukrainian MilTech startup featuring a bold USP, 3D product demo, and lead capture form.",
+    "features": [
+      "Integrated Stripe payment gateway",
+      "Real-time inventory tracking",
+      "Admin dashboard with analytics"
+    ]
+  },
+  {
     "id": "rethingit",
     "title": "RethingIt",
     "tags": ["React", "Firebase", "UI/UX", "Realtime Chat"],
@@ -30,50 +76,13 @@
     ]
   },
   {
-    "id": "citadel",
-    "title": "Citadel",
-    "tags": ["JavaScript", "UI/UX", "HTML", "CSS"],
-    "category": ["web-development", "product-management"],
-    "image": "images/citadel_cover.jpeg",
-    "url": "https://ctadel.netlify.app/",
-    "behanceUrl": "https://www.behance.net/gallery/232491537/Citadel",
-    "description": "A bilingual landing page for a Ukrainian MilTech startup featuring a bold USP, 3D product demo, and lead capture form.",
-    "features": [
-      "Integrated Stripe payment gateway",
-      "Real-time inventory tracking",
-      "Admin dashboard with analytics"
-    ]
-  },
-  {
-    "id": "funju",
-    "title": "Funju",
-    "tags": ["Supabase", "Leaflet.js", "UI/UX", "E-commerce"],
-    "category": ["web-development", "product-management"],
-    "image": "images/funjucover.png",
-    "url": "https://funju.bar/",
-    "behanceUrl": "https://www.behance.net/gallery/242435501/FUNJU",
-    "description": "Launch website for FUNJU — Korean-inspired soju targeting Ukrainian consumers. Combines product storytelling with e-commerce integration and lead generation.",
-    "features": [
-      "i18n (Ukrainian/English) with age verification",
-      "Interactive 3D bottle presentation and product videos",
-      "Geo-targeted POS locator with social media integration"
-    ]
-  },
-  {
-    "id": "gradus-ai",
-    "title": "Gradus AI",
-    "tags": ["Agentic AI", "HeyGen", "PostgreSQL"],
-    "category": ["web-development", "product-management", "ai"],
-    "image": "images/graduscover.png",
-    "url": "https://www.gradusmedia.org/",
-    "behanceUrl": "https://www.behance.net/gallery/242382423/Gradus-AI?platform=direct",
-    "description": "An ambitious AI-powered beverage industry platform enabling the entire marketing-to-sales funnel with the help of AI avatars, content generation, and autonomous agent workflows.",
-    "features": [
-      "🤖 Autonomous Content Pipeline",
-      "🎭 AI Avatar Personalities",
-      "📊 Multi-Platform Distribution",
-      "🎯 B2B Targeting"
-    ]
+    "id": "koschef",
+    "title": "Kos Chef",
+    "tags": ["React", "Netlify Function", "Claude API", "Mobile"],
+    "category": ["ai", "mini-apps"],
+    "image": "images/koschef_cover.jpeg",
+    "url": "https://kos-chef.netlify.app/",
+    "description": "An AI-powered recipe generator that creates unique recipes based on your ingredients."
   },
   {
     "id": "blackjack-game",
@@ -144,37 +153,5 @@
       "Offline-first functionality",
       "Progressive Web App features"
     ]
-  },
-  {
-    "id": "password-generator",
-    "title": "Password Generator",
-    "tags": ["JavaScript", "HTML", "CSS", "Mobile"],
-    "category": "mini-apps",
-    "image": "images/passwordgenerator_cover.jpeg",
-    "url": "https://kos-pass.netlify.app/",
-    "description": "An app that generates strong, random passwords keeping hackers out of business. Whether you need a quick solution or want to make your old password strong again.",
-    "features": [
-      "Drag and drop task organization",
-      "Offline-first functionality",
-      "Progressive Web App features"
-    ]
-  },
-  {
-    "id": "koschef",
-    "title": "Kos Chef",
-    "tags": ["React", "Netlify Function", "Claude API", "Mobile"],
-    "category": "ai",
-    "image": "images/koschef_cover.jpeg",
-    "url": "https://kos-chef.netlify.app/",
-    "description": "An AI-powered recipe generator that creates unique recipes based on your ingredients."
-  },
-  {
-    "id": "describer",
-    "title": "Image Describer",
-    "tags": ["React", "CloudFlare Pages", "Claude API"],
-    "category": "ai",
-    "image": "images/describer_cover.jpeg",
-    "url": "https://describer.pages.dev/",
-    "description": "Equipped with accessibility features, The Describer helps people with impaired sight by providing AI-powered voice and text descriptions of images."
   }
 ]
