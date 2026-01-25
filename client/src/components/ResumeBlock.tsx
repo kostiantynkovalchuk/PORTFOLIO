@@ -25,7 +25,7 @@ export default function ResumeBlock() {
                 className="relative group cursor-pointer"
                 onClick={handleThumbnailClick}
               >
-                <div className="w-full aspect-[3/4] bg-white rounded-lg shadow-md group-hover:shadow-lg transition-shadow border overflow-hidden">
+                <div className="w-full aspect-[3/4] bg-white rounded-lg shadow-md group-hover:shadow-lg transition-shadow border overflow-hidden p-2">
                   <img
                     src="/resume-thumbnail.jpg"
                     alt="Resume Preview"
