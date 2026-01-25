@@ -21,10 +21,10 @@ export default function Home() {
   const cases: Case[] = casesData;
 
   // Updated filtering logic to handle array categories and add context
-  // Reverse the array so newly added projects appear first
+  // Cases are already ordered newest to oldest in cases.json
   const filteredCases =
     selectedCategory === "all"
-      ? cases.map((case_) => ({ ...case_, currentFilter: selectedCategory })).reverse()
+      ? cases.map((case_) => ({ ...case_, currentFilter: selectedCategory }))
       : cases
           .filter((case_) => {
             // Handle both array and string categories
@@ -34,8 +34,7 @@ export default function Home() {
               return case_.category === selectedCategory;
             }
           })
-          .map((case_) => ({ ...case_, currentFilter: selectedCategory }))
-          .reverse();
+          .map((case_) => ({ ...case_, currentFilter: selectedCategory }));
 
   return (
     <div className="pt-20">

@@ -18,10 +18,15 @@ export default function Info() {
     "OpenAI GPT",
     "Midjourney",
     "ElevenLabs",
+    "HeyGen",
+    "Higgsfield",
     "Cursor",
+    "Replit",
     "Firebase",
     "Supabase",
     "PostgreSQL",
+    "Render",
+    "Cloudflare",
     "Git/GitHub",
     "Figma",
     "Notion",
@@ -43,11 +48,11 @@ export default function Info() {
       <ResumeBlock />
 
       {/* About Section */}
-      <section className="py-16 px-6">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl font-semibold mb-6">About Me</h2>
-            <p className="text-lg text-gray-700 leading-relaxed max-w-3xl mx-auto font-bold">
+      <section className="py-20 px-6">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl font-semibold mb-8">About Me</h2>
+            <p className="text-2xl text-gray-700 leading-relaxed max-w-4xl mx-auto font-bold">
               "I bring a unique blend of creative thinking, strategic
               leadership, and technical understanding — enabling the translation
               of bold ideas into user-centric solutions across Mobile and Web.
