@@ -58,7 +58,7 @@ export default function Info() {
             </p>
             <p className="text-xl md:text-2xl text-electric-blue leading-relaxed max-w-4xl mx-auto font-bold">
               My background spans <span className="text-gray-700">global</span> environments, where I've led projects
-              that align <span className="text-gray-700">design</span>, <span className="text-gray-700">development</span>, and <span className="text-gray-700">business</span> goals. I thrive in
+              that align design, development, and business goals. I thrive in
               fast-moving, collaborative settings and focus on building products
               that not only function well — but create impact."
             </p>
