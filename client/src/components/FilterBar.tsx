@@ -10,12 +10,12 @@ export default function FilterBar({
   onCategoryChange,
 }: FilterBarProps) {
   const categories = [
-    { id: "all", label: "All" },
-    { id: "mini-apps", label: "Mini Apps" },
-    { id: "web-development", label: "Web Development" },
-    { id: "product-management", label: "Product Management" },
-    { id: "games", label: "Games" },
     { id: "ai", label: "AI" },
+    { id: "product-management", label: "Product Management" },
+    { id: "web-development", label: "Web Development" },
+    { id: "games", label: "Games" },
+    { id: "mini-apps", label: "Mini Apps" },
+    { id: "all", label: "All" },
   ];
 
   return (
