@@ -53,13 +53,12 @@ export default function Info() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-semibold mb-8">About Me</h2>
             <p className="text-xl md:text-2xl text-electric-blue leading-relaxed max-w-4xl mx-auto font-bold mb-6">
-              "I bring a unique blend of <span className="text-gray-700">creative thinking, strategic
-              leadership, and technical understanding</span> — enabling the <span className="text-gray-700">translation
-              of bold ideas into user-centric solutions</span> across Mobile and Web.
+              "I bring a unique blend of <span className="text-gray-700">creative</span> thinking, <span className="text-gray-700">strategic</span> leadership, and <span className="text-gray-700">technical</span> understanding — enabling the translation
+              of bold ideas into user-centric solutions across Mobile and Web.
             </p>
             <p className="text-xl md:text-2xl text-electric-blue leading-relaxed max-w-4xl mx-auto font-bold">
-              My background spans <span className="text-gray-700">global environments</span>, where I've led <span className="text-gray-700">projects
-              that align design, development, and business goals</span>. I thrive in
+              My background spans <span className="text-gray-700">global</span> environments, where I've led projects
+              that align <span className="text-gray-700">design</span>, <span className="text-gray-700">development</span>, and <span className="text-gray-700">business</span> goals. I thrive in
               fast-moving, collaborative settings and focus on building products
               that not only function well — but create impact."
             </p>
