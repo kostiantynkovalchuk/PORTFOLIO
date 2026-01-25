@@ -52,14 +52,14 @@ export default function VideoToggle() {
 
   return (
     <div className="relative max-w-2xl mx-auto p-4">
-      <div className="bg-gray-100 rounded-2xl overflow-hidden aspect-video relative group cursor-pointer">
+      <div className="bg-gray-100 rounded-2xl overflow-hidden aspect-square relative group cursor-pointer">
         {!showVideo || videoError ? (
           <>
             {/* Photo Cover */}
             <img
-              src="images/kos.jpg"
+              src="images/portrait.png"
               alt="Kostiantyn Kovalchuk"
-              className="w-full h-full object-cover object-[center_10%]"
+              className="w-full h-full object-cover object-center"
             />
 
             {/* Video Controls Overlay - Always Visible */}
