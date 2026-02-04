@@ -76,6 +76,15 @@
     ]
   },
   {
+    "id": "apocalypse",
+    "title": "Apocalypse",
+    "tags": ["AI Art", "Midjourney", "Brand Design"],
+    "category": ["ai"],
+    "image": "images/apocalypse_cover.jpg",
+    "behanceUrl": "https://www.behance.net/gallery/243555559/Apocalypse",
+    "description": "Green Day is a modern Ukrainian vodka brand positioned as ecologically clean, natural, and forward-thinking. Achieving blockbuster-level visuals with startup-level resources — without sacrificing quality or concept."
+  },
+  {
     "id": "koschef",
     "title": "Kos Chef",
     "tags": ["React", "Netlify Function", "Claude API", "Mobile"],
