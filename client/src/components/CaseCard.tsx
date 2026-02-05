@@ -17,10 +17,11 @@ interface CaseCardProps {
 
 export default function CaseCard({ case: caseItem }: CaseCardProps) {
   // Determine which URL to use based on current filter
+  // Priority: 1) Use behanceUrl for product-management filter, 2) Use behanceUrl if no url exists, 3) Use url
   const targetUrl =
     caseItem.currentFilter === "product-management" && caseItem.behanceUrl
       ? caseItem.behanceUrl
-      : caseItem.url;
+      : caseItem.url || caseItem.behanceUrl;
 
   return (
     <a
